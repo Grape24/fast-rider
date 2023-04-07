@@ -1,0 +1,36 @@
+@mixin flexContainer($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin gridContainer($repeat){
+    display: grid;
+    grid-template-rows: repeat($repeat, 1fr);
+    grid-template-columns: repeat($repeat,1fr);
+}
+
+.flex-center {
+    @include flexContainer(column, center, center);
+}
+
+
+
+@mixin responsive($breakpoint) {
+    @media screen and (max-width: $breakpoint) {
+        @content;
+    }
+}
+
+
+@mixin padding-container($padding: 20px, $max-width: 1200px) {
+    margin: 0 auto;
+    padding: 20px $padding;
+    @include responsive($desktop){
+        padding: 20px 100px;
+    }
+    @include responsive($max-width) {
+        padding: 0;
+    }
+}

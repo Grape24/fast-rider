@@ -1,0 +1,8 @@
+.rides-list-container{
+    @include gridContainer(4);
+    @include responsive($mobile){
+        @include gridContainer(2);
+    }
+    margin-top: 3em;
+    gap: .5em;
+}

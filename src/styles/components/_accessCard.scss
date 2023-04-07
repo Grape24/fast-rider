@@ -1,0 +1,4 @@
+.access-card-main-content{
+    @include flexContainer(column, center, center);
+    gap: .3em;
+}

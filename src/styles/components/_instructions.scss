@@ -1,0 +1,17 @@
+.instructions-container{
+    @include flexContainer(row, center, center);
+    gap: 1.5em;
+
+}
+
+.instruction-container {
+    font-weight: 700;
+    margin: 3em 0; 
+    .instructions-icon{
+        background-color: $submit-color;
+        border-radius: 50%;
+        margin: 1em;
+        padding: .5em;
+        width: 40px;
+    }
+}

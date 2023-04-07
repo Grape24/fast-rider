@@ -1,0 +1,35 @@
+.ride-card-container{
+    cursor: pointer;
+    background-color: $card-color;
+    padding: .5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 600;
+    .ride-name{
+        color: $header-color;
+    }
+    .ride-zone{
+        text-align: end;
+        padding-bottom: .5em;
+    }
+    .title{
+        color: $header-color;
+        font-size: 1.8em;
+        text-align: center;
+        padding-bottom: .5em;
+    }
+    .return-time-container,.remaining-tickets-container {
+        img{
+            width: 20px;
+        }
+        span {
+            padding: .2em;
+        }
+    }
+
+}
+
+.selected-ride{
+    background-color: $selected-color;
+}
