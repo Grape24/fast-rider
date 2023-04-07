@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/fast-rider/static/css/main.d2a079d4.css",
+    "main.js": "/fast-rider/static/js/main.cde9656a.js",
+    "static/js/787.48f7b1da.chunk.js": "/fast-rider/static/js/787.48f7b1da.chunk.js",
+    "static/media/ticket.svg": "/fast-rider/static/media/ticket.f10f49f4e18f7ee1cbb31bc85de22462.svg",
+    "static/media/time.svg": "/fast-rider/static/media/time.237c47a5514ec8a70aa07307a4f20c11.svg",
+    "index.html": "/fast-rider/index.html",
+    "static/media/submit.svg": "/fast-rider/static/media/submit.97603741470b1fed2afd22a66776474c.svg",
+    "static/media/V.svg": "/fast-rider/static/media/V.b16acb1833f3d52034af59c04d87b1a0.svg",
+    "main.d2a079d4.css.map": "/fast-rider/static/css/main.d2a079d4.css.map",
+    "main.cde9656a.js.map": "/fast-rider/static/js/main.cde9656a.js.map",
+    "787.48f7b1da.chunk.js.map": "/fast-rider/static/js/787.48f7b1da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2a079d4.css",
+    "static/js/main.cde9656a.js"
+  ]
+}
