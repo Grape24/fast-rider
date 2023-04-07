@@ -29,7 +29,6 @@ export const Home = () => {
     } 
 
     return (<>
-    test
         <Instructions />
         <SubmitInput inputValue={inputValue} 
                     setInputValue={setInputValue}

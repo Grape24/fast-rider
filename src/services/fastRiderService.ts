@@ -1,7 +1,7 @@
 import HttpService from './httpService';
 import { config } from '../ignore/ignore';
 
-const api = new HttpService('http://fast-rider.herokuapp.com/api/v1');
+const api = new HttpService('https://fast-rider.herokuapp.com/api/v1');
 
 export const fetchRides = async () => {
     try {
